@@ -1,0 +1,50 @@
+.array-container {
+    padding: 20px;
+}
+.array {
+    height: 700px;
+}
+.array-bar {
+    display: inline-block;
+    width: 3px;
+    margin: 0px 1.5px;
+    background-color: darkcyan;
+    transition: background-color 0.5s ease;
+}
+.array.sorted .array-bar {
+    background-color: rgba(66, 134, 244, 0.8);
+}
+
+.array-bar.highlight {
+    background-color: yellowgreen;
+}
+.array-bar.viewing {
+    background-color: red;
+}
+
+.array-container button {
+    margin: 10px;
+}
+
+.top {
+    height: 50px;
+    line-height: 50px;
+    background-color: darkslategray;
+    color: white;
+}
+.top button {
+    background-color: #3361ca;
+    border: none;
+    color: white;
+    padding: 6px 15px;
+    font-size: 16px;
+    margin: 0px 3px;
+    border-radius: 5px;
+}
+.top button:hover {
+    background-color: #4569bb;
+}
+.top button:disabled{
+    background-color: #6a7ba0;
+    cursor: not-allowed;
+}
