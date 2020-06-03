@@ -47,7 +47,7 @@ export class SortingVisualizer extends React.Component {
                     <button className="sort-button" onClick={() => this.mergeSort()}>
                         Merge Sort
                     </button>
-                    <span>Animation Speed:</span>
+                    <span className="animateSpeedLabel">Animation Speed:</span>
                     <input type="range" id="animationDelay" defaultValue="500" min="5" max="1000" />
                     <span id="delayText">500</span>ms
                 </div>

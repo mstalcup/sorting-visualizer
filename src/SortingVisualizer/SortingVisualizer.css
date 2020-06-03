@@ -48,3 +48,24 @@
     background-color: #6a7ba0;
     cursor: not-allowed;
 }
+
+/*900*/
+@media only screen and (max-width: 900px) {
+    .array-bar {
+        width: 1px;
+        margin: 0px 0.5px;
+    }
+    .top button { padding: 6px 5px; }
+    .animateSpeedLabel{ display: none; }
+}
+/*1250*/
+@media only screen and (min-width: 900px) and (max-width: 1250px) {
+    .array-bar {
+        width: 2px;
+        margin: 0px 1px;
+    }
+
+    .array-container {
+        padding: 5px;
+    }
+}
